@@ -16,7 +16,7 @@ This tool is designed to be hosted entirely for free using GitHub Pages.
 2. Go to your repository's **Settings**.
 3. Click on **Pages** in the left sidebar.
 4. Under "Build and deployment", set the source branch to `main` (or `master`) and click **Save**.
-5. Your tool will be live at `https://[your-username].github.io/[repository-name]/` within a couple of minutes!
+5. Your tool will be live at `https://almohands87.github.io/vin-Inspector/` within a couple of minutes!
 
 ## Customization
 All structural code, styling (via Tailwind CSS), and logic (JavaScript) is contained within the `index.html` file to ensure the application remains highly portable. 
