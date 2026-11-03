@@ -1,23 +1,58 @@
-# VIN, Equipment & CoC Inspector
+VIN, Equipment & CoC Inspection Tool
 
-A lightweight, web-based inspection tool designed for External Inspection Committee evaluations. This application allows inspectors to quickly decode Vehicle Identification Numbers (VINs), verify standard safety equipment, and check Certificate of Conformity (CoC) statuses in the field.
+Welcome to the VIN, Equipment & CoC Inspector. This web-based application is designed for field inspectors, evaluation committees, and vehicle auditors to efficiently process vehicle verifications, record standard safety equipment, and evaluate Certificate of Conformity (CoC) status.
 
-## Features
-* **VIN Decoding:** Quickly validates and parses 17-character VINs.
-* **Equipment Checklist:** Built-in interactive checklist for mandatory vehicle safety equipment.
-* **CoC Validation:** Status indicator for Certificate of Conformity records.
-* **Print-Ready:** Includes a quick-print function to generate physical inspection reports on the spot.
+Quick Access
 
-## Deployment Instructions
+The application is hosted online and accessible from any smartphone, tablet, or desktop browser at:
+👉 Launch VIN Inspector Tool
 
-This tool is designed to be hosted entirely for free using GitHub Pages.
+How to Use the Inspector Tool
 
-1. Upload both `index.html` and `README.md` to the main branch of your GitHub repository.
-2. Go to your repository's **Settings**.
-3. Click on **Pages** in the left sidebar.
-4. Under "Build and deployment", set the source branch to `main` (or `master`) and click **Save**.
-5. Your tool will be live at `https://almohands87.github.io/vin-Inspector/` within a couple of minutes!
+1. Enter and Decode the VIN
 
-## Customization
-All structural code, styling (via Tailwind CSS), and logic (JavaScript) is contained within the `index.html` file to ensure the application remains highly portable. 
-* To integrate a live VIN API, modify the `inspectVehicle()` function inside the `<script>` tags.
+Open the tool link on your device.
+
+Locate the vehicle's 17-character Vehicle Identification Number (VIN) on the chassis, dashboard, or registration documents.
+
+Enter the VIN into the search box and click Inspect.
+
+The system will validate the length and display decoded vehicle details (Model Year, Manufacturer, and Vehicle Type).
+
+2. Verify Safety Equipment
+
+Scroll down to the Equipment Verification section.
+
+Physically inspect the vehicle for the required safety gear.
+
+Check off each item present and verified:
+
+[x] Safety Triangle Present
+
+[x] Spare Tire & Jack Verified
+
+[x] Fire Extinguisher (Valid Date)
+
+[x] First Aid Kit Present
+
+3. Review Certificate of Conformity (CoC) Status
+
+View the Certificate of Conformity (CoC) badge.
+
+Green Indicator: A valid CoC record is verified for the vehicle.
+
+Red Indicator: The CoC is missing, expired, or requires committee review.
+
+4. Print or Save the Inspection Report
+
+Once all checklist items are verified, click the Print Inspection Report button at the bottom of the screen.
+
+Use your browser's print menu to print a physical copy or select Save as PDF to attach the report to your official records.
+
+Key Features
+
+Mobile & Field Ready: Fully responsive design built to run smoothly on phones and tablets during physical vehicle evaluations.
+
+Instant Validation: Ensures input numbers adhere to the standard 17-character VIN structure before proceeding.
+
+One-Click Reports: Generates clean, printer-friendly summary reports instantly.
